@@ -1,0 +1,11 @@
+pre increment
+input:5
+output:6
+
+#include <stdio.h>
+
+int main() {
+ int a=5;
+ printf("%d",++a);
+ return 0;
+}

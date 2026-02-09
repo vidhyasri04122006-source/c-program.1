@@ -1,0 +1,11 @@
+post increment
+input:5
+output:5
+
+#include <stdio.h>
+
+int main() {
+ int a=5;
+ printf("%d",a++);
+ return 0;
+}

@@ -1,0 +1,10 @@
+size of int
+output:4
+
+#include <stdio.h>
+
+int main() {
+    int a;
+   printf("%d",sizeof(a));
+   return 0;
+}

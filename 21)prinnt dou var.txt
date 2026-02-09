@@ -1,0 +1,10 @@
+print doublevar
+output:12.345
+
+#include <stdio.h>
+
+int main() {
+   double c=12.345;
+    printf("%2lf",c);
+    return 0;
+}

@@ -1,0 +1,11 @@
+declare a float var and print 
+output:2.5
+
+#include <stdio.h>
+
+int main() {
+ float c =2.5;
+ printf("%f",c);
+
+    return 0;
+}

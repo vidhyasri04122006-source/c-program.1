@@ -1,0 +1,12 @@
+mul two var
+output:20
+
+#include <stdio.h>
+
+int main() {
+ int a=10;
+ int b=2;
+ printf("%d",a*b);
+
+    return 0;
+}

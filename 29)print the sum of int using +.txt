@@ -1,0 +1,15 @@
+print tha sum of int using +
+intput:5 5
+output:10
+
+#include <stdio.h>
+
+int main(){
+    int a;
+    int b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a+b);
+    return 0;
+}
+
+

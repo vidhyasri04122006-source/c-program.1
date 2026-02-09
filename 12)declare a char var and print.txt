@@ -1,0 +1,11 @@
+declare a char var and print
+output:x
+
+#include <stdio.h>
+
+int main() {
+ char c ='x';
+ printf("%c",c);
+
+    return 0;
+}

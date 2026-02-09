@@ -1,0 +1,11 @@
+size of char
+output:1
+
+#include <stdio.h>
+
+int main() {
+    char a;
+   printf("%zu",sizeof(a));
+   
+   return 0;
+}

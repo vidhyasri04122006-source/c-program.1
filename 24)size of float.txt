@@ -1,0 +1,12 @@
+size of float
+output:4
+
+#include <stdio.h>
+
+int main() {
+    float a;
+    scanf("%f",&a);
+   printf("%zu",sizeof(a));
+   
+   return 0;
+}

@@ -1,0 +1,10 @@
+print float var
+output:3.5
+
+#include <stdio.h>
+
+int main() {
+   float c=3.5;
+    printf("%f",c);
+    return 0;
+}
