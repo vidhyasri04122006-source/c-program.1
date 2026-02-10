@@ -1,0 +1,11 @@
+compare two num using <
+input:5 10
+output:1
+
+#include<stdio.h>
+int main(){
+    int a=5;
+    int b=10;
+    printf("%d",a<b);
+    return 0;
+}

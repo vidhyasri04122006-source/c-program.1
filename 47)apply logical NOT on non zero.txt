@@ -1,0 +1,12 @@
+apply logical NOT on zero
+input:5
+output:0
+
+#include<stdio.h>
+int main(){
+    int input=5;
+    int output=!input;
+    printf("%d\n",output);
+    return 0;
+}
+    

@@ -1,0 +1,12 @@
+apply logic NOT on zero
+input:0
+output:1
+
+#include<stdio.h>
+int main(){
+    int input=0;
+    int output=!input;
+    printf("%d\n",output);
+    return 0;
+    
+}

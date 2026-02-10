@@ -1,0 +1,11 @@
+com two num using ==
+input:5 5 
+output:1
+
+#include<stdio.h>
+int main(){
+    int a=5;
+    int b=5;
+    printf("%d",a==b);
+    return 0;
+}

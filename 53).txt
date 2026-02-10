@@ -1,0 +1,14 @@
+use/= and =
+input:9 2
+output:41
+
+#include <stdio.h>
+
+int main(){
+    int a=9;
+    int b=2;
+    printf("%d",a/b);
+    printf("%d",a%b);
+
+    return 0;
+}

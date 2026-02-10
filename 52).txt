@@ -1,0 +1,14 @@
+use *=
+input:4
+output:5
+
+#include <stdio.h>
+
+int main(){
+    int a=4;
+    int b=5;
+    a*=b;
+    printf("%d",a);
+
+    return 0;
+}

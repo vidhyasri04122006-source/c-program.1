@@ -1,0 +1,13 @@
+using logic OR on two values
+input:0
+output:5
+
+#include<stdio.h>
+int main(){
+    int a;
+    int b;
+    scanf("%d %d",&a,&b);
+    printf("%d",a||b);
+    return 0;
+    
+}

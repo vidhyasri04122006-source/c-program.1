@@ -1,0 +1,11 @@
+assign a value
+input:10
+output:10
+
+#include<stdio.h>
+int main(){
+    int a=10;
+    printf("%d",a);
+    return 0;
+}
+    
