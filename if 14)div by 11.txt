@@ -1,0 +1,16 @@
+div by 11
+input:121
+output:div by 11
+
+#include <stdio.h>
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a%11==0){
+        printf("div by 11");
+    }
+    else{
+        printf("not div by 11");
+    }
+    return 0;
+}

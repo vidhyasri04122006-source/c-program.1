@@ -1,0 +1,17 @@
+digit using ASCII
+input:7
+output:Digit
+
+#include <stdio.h>
+
+int main() {
+    char ch='7';
+    
+    if(ch>=48&&ch<=57){
+        printf("digit");
+}
+else{
+    printf("no digit");
+}
+    return 0;
+}

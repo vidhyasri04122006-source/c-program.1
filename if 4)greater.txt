@@ -1,0 +1,21 @@
+greater
+input:10 20
+output:20 is greater
+
+#include <stdio.h>
+
+int main() {
+    int a=10;
+    int b=20;
+    
+    if(a>b){
+        printf(" 20 is less ");
+    }
+    else if(a<b){
+        printf(" 20 is greater");
+    }
+    else{
+        printf("default");
+    }
+    return 0;
+}

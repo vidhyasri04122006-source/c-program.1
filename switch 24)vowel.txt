@@ -1,0 +1,27 @@
+vowel using switch
+input:E
+output:vowel
+
+#include <stdio.h>
+int main() {
+    int ch;
+    scanf("%d",&ch);
+    switch(ch){
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+        case 'A':
+        case 'E':
+        case 'I':
+        case 'O':
+        case 'u':
+        printf("vowel");
+        break;
+        default:
+        printf("invalid");
+        break;
+    }
+    return 0;
+}

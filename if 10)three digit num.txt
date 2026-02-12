@@ -1,0 +1,15 @@
+three digit num
+input:345
+output:three digit num
+
+#include <stdio.h>
+ int main(){
+     int a=345;
+     if(100<=a && 999>=a){
+         printf("three digit num");
+     }
+     else{
+         printf("no three digit num");
+     }
+     return 0;
+ }

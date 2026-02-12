@@ -1,0 +1,16 @@
+vote
+input:18
+output:vote
+
+#include <stdio.h>
+int main() {
+    int a;
+    scanf("%d",&a);
+    if(a>=18){
+        printf("vote");
+    }
+    else{
+        printf("no vote");
+    }
+    return 0;
+}

@@ -1,0 +1,16 @@
+digit,alpha,special char
+input:9
+output:digit
+
+#include <stdio.h>
+
+int main() {
+    int a='9';
+    if(a>=48 && a<=57){
+        printf("digit");
+    }
+    else{
+        printf("not a digit");
+    }
+    return 0;
+}

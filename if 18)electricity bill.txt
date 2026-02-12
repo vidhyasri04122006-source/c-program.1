@@ -1,0 +1,21 @@
+ electricity bill
+input:120 units
+output:bill amount=RS.600
+
+
+main() {
+    int units=120;
+    int bill;
+    if(units<=100){
+        bill=units*5;
+    }
+    else if(units<=200){
+        bill=units*5;
+    }
+    else{
+        bill=units*5;
+    }
+        printf("bill amount=RS.%d\n",bill);
+    
+return 0;
+}

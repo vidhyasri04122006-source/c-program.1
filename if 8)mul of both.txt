@@ -1,0 +1,17 @@
+mul of both
+input:21
+output:mul of both 3 and 7
+
+#include <stdio.h>
+
+int main() {
+    int a=21;
+    
+    if(a%3==0 && a%7==0){
+        printf("mul of both 3 and 7");
+    }
+    else{
+        printf("not mul of both");
+    }
+    return 0;
+}
