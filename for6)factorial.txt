@@ -1,0 +1,15 @@
+factorial
+input:5
+output:120
+
+#include<stdio.h>
+int main(){
+    int i,n;
+    int sum=1;
+    scanf("%d",&n);
+    for(i=n;i>=1;i--){
+        sum=sum*i;
+    }
+     printf(" %d\n ",sum);
+return 0;
+}
