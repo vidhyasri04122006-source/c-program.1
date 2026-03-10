@@ -1,0 +1,36 @@
+max revenue block(2*2)matrix
+input:3 3 
+1 2 3
+4 5 6
+7 8 9
+output:28
+----------------------------
+#include <stdio.h>
+
+int main() {
+    int rows, cols;
+    printf("Enter rows and cols: ");
+    scanf("%d %d", &rows, &cols);
+
+    int arr[rows][cols];
+    printf("Enter matrix elements:\n");
+    for(int i=0; i<rows; i++) {
+        for(int j=0; j<cols; j++) {
+            scanf("%d", &arr[i][j]);
+        }
+    }
+    int maxSum = -9999; 
+    int tempSum;
+    for(int i=0; i<rows-1; i++) {
+        for(int j=0; j<cols-1; j++) {
+            tempSum = arr[i][j] + arr[i][j+1] +
+                      arr[i+1][j] + arr[i+1][j+1];
+            if(tempSum > maxSum) {
+                maxSum = tempSum;
+            }
+        }
+    }
+
+    printf("Maximum 2x2 revenue block = %d\n", maxSum);
+    return 0;
+}
